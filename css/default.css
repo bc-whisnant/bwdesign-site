@@ -1,0 +1,125 @@
+body {
+        font-family: 'Titillium Web', sans-serif;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    ul li > ul {
+        list-style: disc;
+    }
+    
+    a,
+    a:visited {
+        color: black;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: gray;
+        text-decoration: underline;
+    }
+    
+    .top-container {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .top-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .middle ul, 
+    .middle-left p,
+    .middle-right ul {
+    display: none;
+    }
+    
+    .middle-left h2 {
+        text-align: center;
+    }
+    
+    .middle h2 {
+        text-align: center;
+    }
+    
+    .middle-right h2 {
+        text-align: center;
+    }
+    
+    .middle-right {
+    	text-align: center;
+   }
+    
+    .bottom-container {
+        background-color: #D3D3D3;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .bottom-container h2 {
+        text-align: center;
+    }
+    .html span {
+        background-color: orange;
+        display: block;
+        height: 25px;
+        width: 95%;
+        margin-top: 2%;
+    }
+    
+    .css span {
+        background-color: orange;
+        display: block;
+        height: 25px;
+        width: 95%;
+        margin-top: 2%;
+    }
+    
+    .js span {
+        background-color: orange;
+        display: block;
+        height: 25px;
+        width: 65%;
+        margin-top: 2%;
+    }
+    
+    .python span {
+        background-color: orange;
+        display: block;
+        height: 25px;
+        width: 70%;
+        margin-top: 2%;
+    }
+    
+    .swift span {
+        background-color: orange;
+        display: block;
+        height: 25px;
+        width: 45%;
+        margin-top: 2%;
+    }
+    
+    @media screen and (min-width:401px) and (max-width: 1024px) {
+        .middle-left,
+        .middle,
+        .middle-right { 
+        text-align: center;
+        }
+        
+        ul li > ul {
+        list-style: none;
+    }
+    
+    }
+    
+    @media screen and (min-width:1025px) {
+        .middle-right ul li {
+        margin-left: -10%
+        }
+        
+        
+    
+    }
